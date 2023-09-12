@@ -30,7 +30,7 @@
     .logo {
         cursor: pointer;
         img {
-            height: 50px;
+            max-height: 45px;
         }
     }
     .menuItems {
@@ -108,7 +108,7 @@
         height: 60px;
         background-color: white;
         position: absolute;
-        top: 60px;
+        top: 0px;
         animation: mobileMenu 0.3s ease forwards;
         .searchInput {
             display: flex;
@@ -117,9 +117,9 @@
             margin-top: 10px;
             width: 100%;
             svg {
-                font-size: 20px;
+                font-size: 30px;
                 flex-shrink: 0;
-                margin-left: 10px;
+                margin-right: 10px;
                 cursor: pointer;
             }
             input {
